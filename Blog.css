@@ -1,0 +1,37 @@
+
+
+.center {
+    text-align: center;
+    padding: 10px 0;
+}
+main .blog img {
+    width: 450px;
+    height: 250px;
+}
+main .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+} 
+
+main .container div {
+    padding: 10px;
+    width: 40%;
+    line-height: 25px;
+}
+
+@media screen and (max-width:950px) {
+    main .container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        
+    }
+    main .container div {
+        text-align: center;
+        width: 100%;
+        line-height: 25px;
+    }
+}
